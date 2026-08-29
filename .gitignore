@@ -1,0 +1,12 @@
+# Verilator build artifacts
+obj_dir/
+*.mk
+*.d
+*.o
+*.a
+
+# Waveform traces & log files
+*.vcd
+*.vdc
+*.fst
+*.log
