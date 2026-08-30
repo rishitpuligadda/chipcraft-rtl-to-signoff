@@ -5,14 +5,14 @@ module tb_uart;
   localparam CLKS_PER_BITS = 217;
   localparam BIT_TIME = CLK_PERIOD * CLKS_PER_BITS;
 
-  reg clk;
-  reg rst_n;
-  reg serial_in;
+  reg        clk;
+  reg        rst_n;
+  reg        serial_in;
 
   wire [7:0] data_out;
-  wire data_ready;
+  wire       data_ready;
 
-  integer rx_count;
+  integer    rx_count;
 
   uart #(
     .CLKS_PER_BITS(CLKS_PER_BITS)
