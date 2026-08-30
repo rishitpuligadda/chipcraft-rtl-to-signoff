@@ -1,6 +1,7 @@
 module upc(
   output reg [3:0] y,
-  input clk, rst_n
+  input            clk, 
+  input            rst_n
 );
 
   always @(posedge clk or negedge rst_n) begin
