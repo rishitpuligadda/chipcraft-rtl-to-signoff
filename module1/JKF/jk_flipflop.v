@@ -2,14 +2,16 @@
 
 module jk_flipflop(
   output reg q,
-  output qn,
-  input j, k,
-  input clk, rst
+  output     qn,
+  input      j, k,
+  input      clk, rst
 );
   assign qn = ~q;
+
   always@(posedge clk or posedge rst) begin
-    if (rst) 
+    if (rst) begin 
       q <= 1'b0;
+    end
     else begin
       case ({j, k}) 
         2'b00: q <= q;
