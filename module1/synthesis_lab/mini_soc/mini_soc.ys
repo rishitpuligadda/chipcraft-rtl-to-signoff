@@ -1,0 +1,26 @@
+#(This command reads the verilog file)
+read_verilog counter.v alu.v mux21.v mini_soc.v
+#(This command checks the hierarchy of the design from the top)
+hierarchy -check -top mini_soc
+
+#(This command performs the internal processes done by yosys tool as well as map the fsms and memory block if any are present in the design)
+proc; opt; fsm; opt; memory; opt
+
+#(This command maps the design to your internal cell library)
+techmap; opt
+
+#(This command maps the flip flops present in your design to your standard cell library)
+dfflibmap -liberty /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+#(this command maps the logic of your design to your standard cell library)
+abc -liberty /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+#(This command removes the unused wires if any from your design)
+clean
+
+#(This command opens a pictorial reporesentation of your design showing how many standard cells are used and how they are connected in your design)
+read_liberty -lib /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show -format png -prefix mini_soc_schematic mini_soc
+
+#(this command writes the synthesized gate level netlist in verilog format with the name and_netlist.v)
+write_verilog mini_soc_netlist.v
