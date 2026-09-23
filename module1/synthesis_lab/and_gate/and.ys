@@ -19,7 +19,6 @@ clean
 
 #(This command opens a pictorial reporesentation of your design showing how many standard cells are used and how they are connected in your design)
 read_liberty -lib /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-show
-
+show -format png -prefix and_gate_schematic and_gate
 #(this command writes the synthesized gate level netlist in verilog format with the name and_netlist.v)
 write_verilog and_netlist.v
