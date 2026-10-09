@@ -1,0 +1,22 @@
+yosys "to open yosys"
+read_verilog <filename> "Read the verilog file"
+hierarchy -check -top ,top module> "set the top level module and check hierarchy"
+proc; opt; fsm; opt; memory; opt
+
+proc   -> converts behavioral constructs into processes
+fsm    -> Extracts and optimizes fsm
+memory -> Translates memory elements if present
+opt    -> Optimize design after each transformation
+
+techmap; opt -> mapping to internal cell library
+
+dfflibmap -liberty <liberty file> -> assigns ff to available library cells
+
+abc -liberty <liberty file> -> mapping logic to mycells.lib
+
+clean -> clean up unused cells and signals after mapping
+
+show -> show the design
+
+write_verilog <to which file> -> writes the gate level netlist 
+
