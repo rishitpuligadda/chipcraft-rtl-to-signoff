@@ -15,26 +15,14 @@ module ha(s, c, a, b);
   (* src = "ha.v:3.12-3.13" *)
   input b;
   wire b;
-  (* src = "ha.v:3.9-3.10" *)
-  wire _0_;
-  (* src = "ha.v:3.12-3.13" *)
-  wire _1_;
-  (* src = "ha.v:2.12-2.13" *)
-  wire _2_;
-  (* src = "ha.v:2.9-2.10" *)
-  wire _3_;
-  sky130_fd_sc_hd__and2_0 _4_ (
-    .A(_0_),
-    .B(_1_),
-    .X(_2_)
+  sky130_fd_sc_hd__and2_0 _0_ (
+    .A(a),
+    .B(b),
+    .X(c)
   );
-  sky130_fd_sc_hd__xor2_1 _5_ (
-    .A(_0_),
-    .B(_1_),
-    .X(_3_)
+  sky130_fd_sc_hd__xor2_1 _1_ (
+    .A(a),
+    .B(b),
+    .X(s)
   );
-  assign _0_ = a;
-  assign _1_ = b;
-  assign c = _2_;
-  assign s = _3_;
 endmodule
