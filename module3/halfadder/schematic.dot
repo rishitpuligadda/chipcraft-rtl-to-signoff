@@ -1,0 +1,33 @@
+digraph "ha" {
+label="ha";
+rankdir="LR";
+remincross=true;
+n5 [ shape=octagon, label="a", color="black", fontcolor="black"];
+n6 [ shape=octagon, label="b", color="black", fontcolor="black"];
+n7 [ shape=octagon, label="c", color="black", fontcolor="black"];
+n8 [ shape=octagon, label="s", color="black", fontcolor="black"];
+c12 [ shape=record, label="{{<p9> A|<p10> B|<p11> X}|$77\nsky130_fd_sc_hd__and2_0|{}}",  ];
+c13 [ shape=record, label="{{<p9> A|<p10> B|<p11> X}|$78\nsky130_fd_sc_hd__xor2_1|{}}",  ];
+x0 [shape=point, ];
+x1 [shape=point, ];
+x2 [shape=point, ];
+x3 [shape=point, ];
+n1 [ shape=point ];
+x0:e -> n1:w [color="black", fontcolor="black", label=""];
+n1:e -> c12:p9:w [color="black", fontcolor="black", label=""];
+n1:e -> c13:p9:w [color="black", fontcolor="black", label=""];
+n2 [ shape=point ];
+x1:e -> n2:w [color="black", fontcolor="black", label=""];
+n2:e -> c12:p10:w [color="black", fontcolor="black", label=""];
+n2:e -> c13:p10:w [color="black", fontcolor="black", label=""];
+n3 [ shape=diamond, label="$c" ];
+n3:e -> c12:p11:w [color="black", fontcolor="black", label=""];
+n3:e -> x2:w [color="black", fontcolor="black", label=""];
+n4 [ shape=diamond, label="$s" ];
+n4:e -> c13:p11:w [color="black", fontcolor="black", label=""];
+n4:e -> x3:w [color="black", fontcolor="black", label=""];
+n5:e -> x0:w [color="black", fontcolor="black", label=""];
+n6:e -> x1:w [color="black", fontcolor="black", label=""];
+x2:e -> n7:w [color="black", fontcolor="black", label=""];
+x3:e -> n8:w [color="black", fontcolor="black", label=""];
+}
