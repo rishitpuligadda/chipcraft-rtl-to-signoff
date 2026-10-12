@@ -1,0 +1,18 @@
+digraph "dff" {
+label="dff";
+rankdir="LR";
+remincross=true;
+n2 [ shape=octagon, label="clk", color="black", fontcolor="black"];
+n3 [ shape=octagon, label="d", color="black", fontcolor="black"];
+n4 [ shape=octagon, label="q", color="black", fontcolor="black"];
+n5 [ shape=octagon, label="rst", color="black", fontcolor="black"];
+c9 [ shape=record, label="{{<p6> A|<p7> SLEEP|<p8> X}|$82\nsky130_fd_sc_hd__lpflow_isobufsrc_1|{}}",  ];
+c13 [ shape=record, label="{{<p10> CLK|<p11> D|<p12> Q}|$78\nsky130_fd_sc_hd__dfxtp_1|{}}",  ];
+n1 [ shape=diamond, label="$80" ];
+n1:e -> c13:p11:w [color="black", fontcolor="black", label=""];
+n1:e -> c9:p8:w [color="black", fontcolor="black", label=""];
+n2:e -> c13:p10:w [color="black", fontcolor="black", label=""];
+n3:e -> c9:p6:w [color="black", fontcolor="black", label=""];
+n4:e -> c13:p12:w [color="black", fontcolor="black", label=""];
+n5:e -> c9:p7:w [color="black", fontcolor="black", label=""];
+}
