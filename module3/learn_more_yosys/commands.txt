@@ -1,0 +1,4 @@
+stat -> shows cells, wires and net counts.
+stat -liberty <lib file> -> shows area and leakage if present in liberty file
+stat -tech cmos -> shows transistor-level estimates
+stat -tech xilinx -> shows FPGA LUT/FF uage estimates
