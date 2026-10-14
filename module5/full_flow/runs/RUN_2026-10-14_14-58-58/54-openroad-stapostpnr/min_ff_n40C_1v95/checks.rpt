@@ -1,0 +1,71 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= min_ff_n40C_1v95 Corner ===================================
+
+Startpoint: rst (input port clocked by __VIRTUAL_CLK__)
+Endpoint: _17_ (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  2.000000    2.000000 v input external delay
+     1    0.003427    0.005645    0.002820    2.002820 v rst (in)
+                                                         rst (net)
+                      0.005645    0.000000    2.002820 v input2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     4    0.019700    0.105483    0.213540    2.216359 v input2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net2 (net)
+                      0.105483    0.000074    2.216434 v _11_/C (sky130_fd_sc_hd__nor3_2)
+     1    0.003561    0.090645    0.096238    2.312672 ^ _11_/Y (sky130_fd_sc_hd__nor3_2)
+                                                         _05_ (net)
+                      0.090645    0.000053    2.312725 ^ _17_/D (sky130_fd_sc_hd__dfxtp_2)
+                                              2.312725   data arrival time
+---------------------------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= min_ff_n40C_1v95 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= min_ff_n40C_1v95 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 0 unannotated drivers.
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 4 unclocked register/latch pins.
+  _17_/CLK
+  _18_/CLK
+  _19_/CLK
+  _20_/CLK
+Warning: There are 5 unconstrained endpoints.
+  clk_out
+  _17_/D
+  _18_/D
+  _19_/D
+  _20_/D

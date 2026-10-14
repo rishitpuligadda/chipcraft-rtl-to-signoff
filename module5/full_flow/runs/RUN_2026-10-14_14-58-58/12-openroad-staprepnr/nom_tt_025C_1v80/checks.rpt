@@ -1,0 +1,83 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: rst (input port clocked by __VIRTUAL_CLK__)
+Endpoint: _17_ (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  2.000000    2.000000 v input external delay
+     4    0.016008    0.037803    0.025782    2.025782 v rst (in)
+                                                         rst (net)
+                      0.037803    0.000000    2.025782 v _11_/C (sky130_fd_sc_hd__nor3_2)
+     1    0.001674    0.098715    0.078247    2.104028 ^ _11_/Y (sky130_fd_sc_hd__nor3_2)
+                                                         _05_ (net)
+                      0.098715    0.000000    2.104028 ^ _17_/D (sky130_fd_sc_hd__dfxtp_2)
+                                              2.104028   data arrival time
+---------------------------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 15 unannotated drivers.
+ clk
+ rst
+ _08_/Y
+ _09_/Y
+ _10_/Y
+ _11_/Y
+ _12_/Y
+ _13_/X
+ _14_/Y
+ _15_/Y
+ _16_/Y
+ _17_/Q
+ _18_/Q
+ _19_/Q
+ _20_/Q
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 4 unclocked register/latch pins.
+  _17_/CLK
+  _18_/CLK
+  _19_/CLK
+  _20_/CLK
+Warning: There are 5 unconstrained endpoints.
+  clk_out
+  _17_/D
+  _18_/D
+  _19_/D
+  _20_/D

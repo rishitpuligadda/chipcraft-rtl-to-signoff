@@ -1,0 +1,14 @@
+{
+    "json_h": "/foss/designs/course/module5/full_flow/runs/RUN_2026-10-14_14-58-58/05-yosys-jsonheader/full_flow.h.json",
+    "nl": "/foss/designs/course/module5/full_flow/runs/RUN_2026-10-14_14-58-58/06-yosys-synthesis/full_flow.nl.v",
+    "metrics": {
+        "design__lint_error__count": 0,
+        "design__lint_timing_construct__count": 0,
+        "design__lint_warning__count": 0,
+        "design__inferred_latch__count": 0,
+        "design__instance__count": 13,
+        "design__instance__area": 150.144,
+        "design__instance_unmapped__count": 0,
+        "synthesis__check_error__count": 0
+    }
+}

@@ -1,0 +1,27 @@
+100. Printing statistics.
+
+=== full_flow ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       13 wires
+       19 wire bits
+        5 public wires
+        7 public wire bits
+        3 ports
+        3 port bits
+       13 cells
+        2   $_ANDNOT_
+        2   $_NOT_
+        3   $_OR_
+        2   $_SDFF_NP0_
+        2   $_SDFF_PP0_
+        2   $_XOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_SDFF_NP0_ is unknown!
+   Area for cell type $_SDFF_PP0_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
