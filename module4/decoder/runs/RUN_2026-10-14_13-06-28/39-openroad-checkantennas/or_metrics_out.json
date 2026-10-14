@@ -1,0 +1,10 @@
+{
+	"antenna__violating__nets": 0,
+	"antenna__violating__pins": 0,
+	"flow__warnings__count": 4,
+	"flow__errors__count": 0,
+	"flow__warnings__count:STA-0366": 2,
+	"flow__warnings__count:STA-0419": 1,
+	"flow__warnings__count:STA-0450": 1,
+	"flow__warnings__type_count": 3
+}

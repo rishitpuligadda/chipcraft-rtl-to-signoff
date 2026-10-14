@@ -1,0 +1,47 @@
+{
+   "creator": "Yosys 0.65 (git sha1 b85cad634, g++ 13.3.0-6ubuntu2~24.04.1 -fPIC -O3)",
+   "invocation": "stat -json -liberty /foss/designs/course/module4/decoder/runs/RUN_2026-10-14_13-06-28/tmp/6c92cc12341e4f09852067790b630d5c.lib ",
+   "modules": {
+      "\\decoder": {
+         "num_wires":         16,
+         "num_wire_bits":     34,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 20,
+         "num_ports":         2,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         30,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 16,
+            "$_NAND_": 1,
+            "$_NOT_": 2,
+            "$_ORNOT_": 2,
+            "$_OR_": 9
+         }
+      }
+   },
+      "design": {
+         "num_wires":         16,
+         "num_wire_bits":     34,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 20,
+         "num_ports":         2,
+         "num_port_bits":     20,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         30,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 16,
+            "$_NAND_": 1,
+            "$_NOT_": 2,
+            "$_ORNOT_": 2,
+            "$_OR_": 9
+         }
+      }
+}
+

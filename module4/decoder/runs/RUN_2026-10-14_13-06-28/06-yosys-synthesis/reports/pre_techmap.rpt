@@ -1,0 +1,25 @@
+94. Printing statistics.
+
+=== decoder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       16 wires
+       34 wire bits
+        2 public wires
+       20 public wire bits
+        2 ports
+       20 port bits
+       30 cells
+       16   $_ANDNOT_
+        1   $_NAND_
+        2   $_NOT_
+        2   $_ORNOT_
+        9   $_OR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
