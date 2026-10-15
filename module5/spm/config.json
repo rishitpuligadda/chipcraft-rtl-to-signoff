@@ -1,0 +1,41 @@
+{
+    "PDK"                           : "sky130A",
+    "STD_CELL_LIBRARY"              : "sky130_fd_sc_hd",
+    "DESIGN_NAME"                   : "spm",
+    "VERILOG_FILES"                 : "dir::src/*.v",
+    "CLOCK_PERIOD"                  : 10,
+    "CLOCK_PORT"                    : "clk",
+    "CLOCK_NET"                     : "ref::$CLOCK_PORT",
+    "PDN_VOFFSET"                   : 7,
+    "PDN_HOFFSET"                   : 7,
+    "PDN_SKIPTRIM"                  : true,
+    "FP_PIN_ORDER_CFG"              : "dir::pin_order.cfg",
+    "pdk::sky130*"                  : {
+        "FP_CORE_UTIL"              : 45,
+        "scl::sky130_fd_sc_hd"      : {
+            "CLOCK_PERIOD"          : 10,
+            "FP_SIZING"             : "absolute",
+            "DIE_AREA"              : "0.0 0.0 101.85 112.57",
+            "CORE_AREA"             : "5.52 10.88 96.14 100.64"
+        },
+        "scl::sky130_fd_sc_hdll"    : {
+            "CLOCK_PERIOD"          : 10
+        },
+        "scl::sky130_fd_sc_hs"      : {
+            "CLOCK_PERIOD"          : 8
+        },
+        "scl::sky130_fd_sc_ls"      : {
+            "CLOCK_PERIOD"          : 10,
+            "MAX_FANOUT_CONSTRAINT" : 5
+        },
+        "scl::sky130_fd_sc_ms"      : {
+            "CLOCK_PERIOD"          : 10
+        }
+    },
+    "pdk::gf180mcu*"                : {
+        "CLOCK_PERIOD"              : 24.0,
+        "FP_CORE_UTIL"              : 40,
+        "MAX_FANOUT_CONSTRAINT"     : 4,
+        "PL_TARGET_DENSITY_PCT"     : 50
+    }
+}

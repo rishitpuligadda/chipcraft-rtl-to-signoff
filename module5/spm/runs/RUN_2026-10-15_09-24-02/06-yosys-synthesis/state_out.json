@@ -1,0 +1,14 @@
+{
+    "json_h": "/foss/designs/course/module5/spm/runs/RUN_2026-10-15_09-24-02/05-yosys-jsonheader/spm.h.json",
+    "nl": "/foss/designs/course/module5/spm/runs/RUN_2026-10-15_09-24-02/06-yosys-synthesis/spm.nl.v",
+    "metrics": {
+        "design__lint_error__count": 0,
+        "design__lint_timing_construct__count": 0,
+        "design__lint_warning__count": 1,
+        "design__inferred_latch__count": 0,
+        "design__instance__count": 286,
+        "design__instance__area": 3654.7552,
+        "design__instance_unmapped__count": 0,
+        "synthesis__check_error__count": 0
+    }
+}

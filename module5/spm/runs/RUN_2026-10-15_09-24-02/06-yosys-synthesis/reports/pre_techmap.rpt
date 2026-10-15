@@ -1,0 +1,29 @@
+88. Printing statistics.
+
+=== spm ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      257 wires
+      288 wire bits
+       99 public wires
+      130 public wire bits
+        5 ports
+       36 port bits
+      253 cells
+       32   $_AND_
+       64   $_DFF_PP0_
+       31   $_NAND_
+       31   $_NOR_
+        1   $_OR_
+       31   $_XNOR_
+       63   $_XOR_
+
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DFF_PP0_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+

@@ -1,0 +1,34 @@
+94. Printing statistics.
+
+=== spm ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      321        - wires
+      352        - wire bits
+       99        - public wires
+      130        - public wire bits
+        5        - ports
+       36        - port bits
+      317 1.68E+03 cells
+       32        -   $_AND_
+       31        -   $_NAND_
+       31        -   $_NOR_
+       64        -   $_NOT_
+        1        -   $_OR_
+       31        -   $_XNOR_
+       63        -   $_XOR_
+       64 1.68E+03   sky130_fd_sc_hd__dfrtp_2
+
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\spm': 1681.612800
+     of which used for sequential elements: 1681.612800 (100.00%)
+
