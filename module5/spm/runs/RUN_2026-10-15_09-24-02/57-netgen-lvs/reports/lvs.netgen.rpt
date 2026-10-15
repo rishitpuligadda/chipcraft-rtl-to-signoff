@@ -1,0 +1,820 @@
+
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: CLK
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: D
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: RESET_B
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__dfrtp_2 (0) disconnected node: Q
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dfrtp_2        |Circuit 2: sky130_fd_sc_hd__dfrtp_2        
+-------------------------------------------|-------------------------------------------
+CLK                                        |CLK                                        
+D                                          |D                                          
+RESET_B                                    |RESET_B                                    
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Q                                          |Q                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__dfrtp_2 and sky130_fd_sc_hd__dfrtp_2 are equivalent.
+
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__inv_2 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_2          |Circuit 2: sky130_fd_sc_hd__inv_2          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_2 and sky130_fd_sc_hd__inv_2 are equivalent.
+
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: A1
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: A2
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: A3
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: B1
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__a31o_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__a31o_2         |Circuit 2: sky130_fd_sc_hd__a31o_2         
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+B1                                         |B1                                         
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__a31o_2 and sky130_fd_sc_hd__a31o_2 are equivalent.
+
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
+
+Cell sky130_fd_sc_hd__xnor2_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__xnor2_2 (0) disconnected node: B
+Cell sky130_fd_sc_hd__xnor2_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__xnor2_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__xnor2_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__xnor2_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__xnor2_2 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__xnor2_2        |Circuit 2: sky130_fd_sc_hd__xnor2_2        
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__xnor2_2 and sky130_fd_sc_hd__xnor2_2 are equivalent.
+
+Cell sky130_fd_sc_hd__nand2_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__nand2_2 (0) disconnected node: B
+Cell sky130_fd_sc_hd__nand2_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__nand2_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__nand2_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__nand2_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__nand2_2 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nand2_2        |Circuit 2: sky130_fd_sc_hd__nand2_2        
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nand2_2 and sky130_fd_sc_hd__nand2_2 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_4          |Circuit 2: sky130_fd_sc_hd__buf_4          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_4 and sky130_fd_sc_hd__buf_4 are equivalent.
+
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__dlygate4sd3_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dlygate4sd3_1  |Circuit 2: sky130_fd_sc_hd__dlygate4sd3_1  
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__dlygate4sd3_1 and sky130_fd_sc_hd__dlygate4sd3_1 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_16      |Circuit 2: sky130_fd_sc_hd__clkbuf_16      
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_16 and sky130_fd_sc_hd__clkbuf_16 are equivalent.
+
+Cell sky130_fd_sc_hd__xor2_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__xor2_2 (0) disconnected node: B
+Cell sky130_fd_sc_hd__xor2_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__xor2_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__xor2_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__xor2_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__xor2_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__xor2_2         |Circuit 2: sky130_fd_sc_hd__xor2_2         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__xor2_2 and sky130_fd_sc_hd__xor2_2 are equivalent.
+
+Cell sky130_fd_sc_hd__and2_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__and2_2 (0) disconnected node: B
+Cell sky130_fd_sc_hd__and2_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__and2_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__and2_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__and2_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__and2_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and2_2         |Circuit 2: sky130_fd_sc_hd__and2_2         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and2_2 and sky130_fd_sc_hd__and2_2 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
+
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkdlybuf4s25_ |Circuit 2: sky130_fd_sc_hd__clkdlybuf4s25_ 
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkdlybuf4s25_1 and sky130_fd_sc_hd__clkdlybuf4s25_1 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_2       |Circuit 2: sky130_fd_sc_hd__clkbuf_2       
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_2 and sky130_fd_sc_hd__clkbuf_2 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_4       |Circuit 2: sky130_fd_sc_hd__clkbuf_4       
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_4 and sky130_fd_sc_hd__clkbuf_4 are equivalent.
+
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: B
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: C
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__nand3_2 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nand3_2        |Circuit 2: sky130_fd_sc_hd__nand3_2        
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nand3_2 and sky130_fd_sc_hd__nand3_2 are equivalent.
+
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: A1
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: A2
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: B1
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__a21o_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__a21o_2         |Circuit 2: sky130_fd_sc_hd__a21o_2         
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__a21o_2 and sky130_fd_sc_hd__a21o_2 are equivalent.
+
+Class spm (0):  Merged 147 parallel devices.
+Class spm (1):  Merged 169 parallel devices.
+Subcircuit summary:
+Circuit 1: spm                             |Circuit 2: spm                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__dfrtp_2 (64)              |sky130_fd_sc_hd__dfrtp_2 (64)              
+sky130_fd_sc_hd__inv_2 (64)                |sky130_fd_sc_hd__inv_2 (64)                
+sky130_fd_sc_hd__a31o_2 (31)               |sky130_fd_sc_hd__a31o_2 (31)               
+sky130_fd_sc_hd__tapvpwrvgnd_1 (105->1)    |sky130_fd_sc_hd__tapvpwrvgnd_1 (105->1)    
+sky130_fd_sc_hd__xnor2_2 (31)              |sky130_fd_sc_hd__xnor2_2 (31)              
+sky130_fd_sc_hd__nand2_2 (31)              |sky130_fd_sc_hd__nand2_2 (31)              
+sky130_fd_sc_hd__buf_4 (4)                 |sky130_fd_sc_hd__buf_4 (4)                 
+sky130_fd_sc_hd__dlygate4sd3_1 (1)         |sky130_fd_sc_hd__dlygate4sd3_1 (1)         
+sky130_fd_sc_hd__clkbuf_16 (9)             |sky130_fd_sc_hd__clkbuf_16 (9)             
+sky130_fd_sc_hd__xor2_2 (31)               |sky130_fd_sc_hd__xor2_2 (31)               
+sky130_fd_sc_hd__and2_2 (32)               |sky130_fd_sc_hd__and2_2 (32)               
+sky130_fd_sc_hd__decap_3 (66->23)          |sky130_fd_sc_hd__decap_3 (66->1) **Mismatc 
+sky130_fd_sc_hd__buf_2 (2)                 |sky130_fd_sc_hd__buf_2 (2)                 
+sky130_fd_sc_hd__clkdlybuf4s25_1 (53)      |sky130_fd_sc_hd__clkdlybuf4s25_1 (53)      
+sky130_fd_sc_hd__clkbuf_2 (1)              |sky130_fd_sc_hd__clkbuf_2 (1)              
+sky130_fd_sc_hd__clkbuf_4 (2)              |sky130_fd_sc_hd__clkbuf_4 (2)              
+sky130_fd_sc_hd__nand3_2 (1)               |sky130_fd_sc_hd__nand3_2 (1)               
+sky130_fd_sc_hd__a21o_2 (1)                |sky130_fd_sc_hd__a21o_2 (1)                
+Number of devices: 382 **Mismatch**        |Number of devices: 360 **Mismatch**        
+Number of nets: 444 **Mismatch**           |Number of nets: 395 **Mismatch**           
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: spm                             |Circuit 2: spm                             
+
+---------------------------------------------------------------------------------------
+Net: VGND                                  |Net: VGND                                  
+  sky130_fd_sc_hd__dfrtp_2/VGND = 64       |  sky130_fd_sc_hd__dfrtp_2/VGND = 64       
+  sky130_fd_sc_hd__dfrtp_2/VNB = 64        |  sky130_fd_sc_hd__dfrtp_2/VNB = 64        
+  sky130_fd_sc_hd__inv_2/VGND = 64         |  sky130_fd_sc_hd__inv_2/VGND = 64         
+  sky130_fd_sc_hd__inv_2/VNB = 64          |  sky130_fd_sc_hd__inv_2/VNB = 64          
+  sky130_fd_sc_hd__a31o_2/VGND = 31        |  sky130_fd_sc_hd__a31o_2/VGND = 31        
+  sky130_fd_sc_hd__a31o_2/VNB = 31         |  sky130_fd_sc_hd__a31o_2/VNB = 31         
+  sky130_fd_sc_hd__tapvpwrvgnd_1/VGND = 1  |  sky130_fd_sc_hd__tapvpwrvgnd_1/VGND = 1  
+  sky130_fd_sc_hd__xnor2_2/VGND = 31       |  sky130_fd_sc_hd__xnor2_2/VGND = 31       
+  sky130_fd_sc_hd__xnor2_2/VNB = 31        |  sky130_fd_sc_hd__xnor2_2/VNB = 31        
+  sky130_fd_sc_hd__nand2_2/VGND = 31       |  sky130_fd_sc_hd__nand2_2/VGND = 31       
+  sky130_fd_sc_hd__nand2_2/VNB = 31        |  sky130_fd_sc_hd__nand2_2/VNB = 31        
+  sky130_fd_sc_hd__buf_4/VGND = 4          |  sky130_fd_sc_hd__buf_4/VGND = 4          
+  sky130_fd_sc_hd__buf_4/VNB = 4           |  sky130_fd_sc_hd__buf_4/VNB = 4           
+  sky130_fd_sc_hd__dlygate4sd3_1/VGND = 1  |  sky130_fd_sc_hd__dlygate4sd3_1/VGND = 1  
+  sky130_fd_sc_hd__dlygate4sd3_1/VNB = 1   |  sky130_fd_sc_hd__dlygate4sd3_1/VNB = 1   
+  sky130_fd_sc_hd__clkbuf_16/VGND = 9      |  sky130_fd_sc_hd__clkbuf_16/VGND = 9      
+  sky130_fd_sc_hd__clkbuf_16/VNB = 9       |  sky130_fd_sc_hd__clkbuf_16/VNB = 9       
+  sky130_fd_sc_hd__xor2_2/VGND = 31        |  sky130_fd_sc_hd__xor2_2/VGND = 31        
+  sky130_fd_sc_hd__xor2_2/VNB = 31         |  sky130_fd_sc_hd__xor2_2/VNB = 31         
+  sky130_fd_sc_hd__and2_2/VGND = 32        |  sky130_fd_sc_hd__and2_2/VGND = 32        
+  sky130_fd_sc_hd__and2_2/VNB = 32         |  sky130_fd_sc_hd__and2_2/VNB = 32         
+  sky130_fd_sc_hd__decap_3/VGND = 23       |  sky130_fd_sc_hd__decap_3/VGND = 1        
+  sky130_fd_sc_hd__decap_3/VNB = 23        |  sky130_fd_sc_hd__decap_3/VNB = 1         
+  sky130_fd_sc_hd__buf_2/VGND = 2          |  sky130_fd_sc_hd__buf_2/VGND = 2          
+  sky130_fd_sc_hd__buf_2/VNB = 2           |  sky130_fd_sc_hd__buf_2/VNB = 2           
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VGND =  |  sky130_fd_sc_hd__clkdlybuf4s25_1/VGND =  
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VNB = 5 |  sky130_fd_sc_hd__clkdlybuf4s25_1/VNB = 5 
+  sky130_fd_sc_hd__clkbuf_2/VGND = 1       |  sky130_fd_sc_hd__clkbuf_2/VGND = 1       
+  sky130_fd_sc_hd__clkbuf_2/VNB = 1        |  sky130_fd_sc_hd__clkbuf_2/VNB = 1        
+  sky130_fd_sc_hd__clkbuf_4/VGND = 2       |  sky130_fd_sc_hd__clkbuf_4/VGND = 2       
+  sky130_fd_sc_hd__clkbuf_4/VNB = 2        |  sky130_fd_sc_hd__clkbuf_4/VNB = 2        
+  sky130_fd_sc_hd__nand3_2/VGND = 1        |  sky130_fd_sc_hd__nand3_2/VGND = 1        
+  sky130_fd_sc_hd__nand3_2/VNB = 1         |  sky130_fd_sc_hd__nand3_2/VNB = 1         
+  sky130_fd_sc_hd__a21o_2/VGND = 1         |  sky130_fd_sc_hd__a21o_2/VGND = 1         
+  sky130_fd_sc_hd__a21o_2/VNB = 1          |  sky130_fd_sc_hd__a21o_2/VNB = 1          
+                                           |                                           
+Net: VPWR                                  |Net: VPWR                                  
+  sky130_fd_sc_hd__dfrtp_2/VPB = 59        |  sky130_fd_sc_hd__dfrtp_2/VPB = 64        
+  sky130_fd_sc_hd__dfrtp_2/VPWR = 64       |  sky130_fd_sc_hd__dfrtp_2/VPWR = 64       
+  sky130_fd_sc_hd__inv_2/VPWR = 64         |  sky130_fd_sc_hd__inv_2/VPWR = 64         
+  sky130_fd_sc_hd__a31o_2/VPB = 24         |  sky130_fd_sc_hd__a31o_2/VPB = 31         
+  sky130_fd_sc_hd__a31o_2/VPWR = 31        |  sky130_fd_sc_hd__a31o_2/VPWR = 31        
+  sky130_fd_sc_hd__tapvpwrvgnd_1/VPWR = 1  |  sky130_fd_sc_hd__tapvpwrvgnd_1/VPWR = 1  
+  sky130_fd_sc_hd__xnor2_2/VPWR = 31       |  sky130_fd_sc_hd__xnor2_2/VPWR = 31       
+  sky130_fd_sc_hd__nand2_2/VPB = 26        |  sky130_fd_sc_hd__nand2_2/VPB = 31        
+  sky130_fd_sc_hd__nand2_2/VPWR = 31       |  sky130_fd_sc_hd__nand2_2/VPWR = 31       
+  sky130_fd_sc_hd__xnor2_2/VPB = 22        |  sky130_fd_sc_hd__xnor2_2/VPB = 31        
+  sky130_fd_sc_hd__buf_4/VPB = 4           |  sky130_fd_sc_hd__buf_4/VPB = 4           
+  sky130_fd_sc_hd__buf_4/VPWR = 4          |  sky130_fd_sc_hd__buf_4/VPWR = 4          
+  sky130_fd_sc_hd__dlygate4sd3_1/VPWR = 1  |  sky130_fd_sc_hd__dlygate4sd3_1/VPWR = 1  
+  sky130_fd_sc_hd__clkbuf_16/VPB = 9       |  sky130_fd_sc_hd__clkbuf_16/VPB = 9       
+  sky130_fd_sc_hd__clkbuf_16/VPWR = 9      |  sky130_fd_sc_hd__clkbuf_16/VPWR = 9      
+  sky130_fd_sc_hd__inv_2/VPB = 44          |  sky130_fd_sc_hd__inv_2/VPB = 64          
+  sky130_fd_sc_hd__xor2_2/VPB = 26         |  sky130_fd_sc_hd__xor2_2/VPB = 31         
+  sky130_fd_sc_hd__xor2_2/VPWR = 31        |  sky130_fd_sc_hd__xor2_2/VPWR = 31        
+  sky130_fd_sc_hd__and2_2/VPB = 24         |  sky130_fd_sc_hd__and2_2/VPB = 32         
+  sky130_fd_sc_hd__and2_2/VPWR = 32        |  sky130_fd_sc_hd__and2_2/VPWR = 32        
+  sky130_fd_sc_hd__decap_3/VPB = 1         |  sky130_fd_sc_hd__decap_3/VPB = 1         
+  sky130_fd_sc_hd__decap_3/VPWR = 23       |  sky130_fd_sc_hd__decap_3/VPWR = 1        
+  sky130_fd_sc_hd__buf_2/VPB = 2           |  sky130_fd_sc_hd__buf_2/VPB = 2           
+  sky130_fd_sc_hd__buf_2/VPWR = 2          |  sky130_fd_sc_hd__buf_2/VPWR = 2          
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPWR =  |  sky130_fd_sc_hd__clkdlybuf4s25_1/VPWR =  
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 4 |  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 5 
+  sky130_fd_sc_hd__clkbuf_2/VPB = 1        |  sky130_fd_sc_hd__clkbuf_2/VPB = 1        
+  sky130_fd_sc_hd__clkbuf_2/VPWR = 1       |  sky130_fd_sc_hd__clkbuf_2/VPWR = 1       
+  sky130_fd_sc_hd__clkbuf_4/VPB = 1        |  sky130_fd_sc_hd__clkbuf_4/VPB = 2        
+  sky130_fd_sc_hd__clkbuf_4/VPWR = 2       |  sky130_fd_sc_hd__clkbuf_4/VPWR = 2       
+  sky130_fd_sc_hd__nand3_2/VPB = 1         |  sky130_fd_sc_hd__nand3_2/VPB = 1         
+  sky130_fd_sc_hd__nand3_2/VPWR = 1        |  sky130_fd_sc_hd__nand3_2/VPWR = 1        
+  sky130_fd_sc_hd__a21o_2/VPB = 1          |  sky130_fd_sc_hd__a21o_2/VPB = 1          
+  sky130_fd_sc_hd__a21o_2/VPWR = 1         |  sky130_fd_sc_hd__a21o_2/VPWR = 1         
+                                           |  sky130_fd_sc_hd__dlygate4sd3_1/VPB = 1   
+                                           |                                           
+Net: output35/VPB                          |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 1 |                                           
+                                           |                                           
+Net: _412_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+                                           |                                           
+Net: _411_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 1 |                                           
+                                           |                                           
+Net: _308_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__xor2_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: _255_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__nand2_2/VPB = 1         |                                           
+                                           |                                           
+Net: _399_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+                                           |                                           
+Net: _465_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__dfrtp_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _463_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__dfrtp_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+                                           |                                           
+Net: _390_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+                                           |                                           
+Net: _264_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__a31o_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__nand2_2/VPB = 1         |                                           
+                                           |                                           
+Net: hold63/VPB                            |(no matching net)                          
+  sky130_fd_sc_hd__dlygate4sd3_1/VPB = 1   |                                           
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: _260_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__a31o_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+                                           |                                           
+Net: _364_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 2           |                                           
+  sky130_fd_sc_hd__clkbuf_4/VPB = 1        |                                           
+                                           |                                           
+Net: _361_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+  sky130_fd_sc_hd__a31o_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+                                           |                                           
+Net: _406_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__nand2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _393_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+  sky130_fd_sc_hd__a31o_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__xor2_2/VPB = 1          |                                           
+                                           |                                           
+Net: _422_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+  sky130_fd_sc_hd__xor2_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__dfrtp_2/VPB = 1         |                                           
+                                           |                                           
+Net: input14/VPB                           |(no matching net)                          
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 3 |                                           
+                                           |                                           
+Net: _413_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__dfrtp_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _357_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__a31o_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__xor2_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _395_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__nand2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _300_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__xnor2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__a31o_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__nand2_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+                                           |                                           
+Net: _475_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 1 |                                           
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__dfrtp_2/VPB = 1         |                                           
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_17_Left_50/VPB           |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_7_Right_7/VPB            |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_21_Left_54/VPB           |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_25_Left_58/VPB           |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_11_Left_44/VPB           |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_1_Right_1/VPB            |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_25_Right_25/VPB          |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_5_Right_5/VPB            |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_3_Left_36/VPB            |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_11_Right_11/VPB          |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_32_Left_65/VPB           |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_23_Right_23/VPB          |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_9_Left_42/VPB            |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_17_Right_17/VPB          |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_13_Left_46/VPB           |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_3_Right_3/VPB            |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: PHY_EDGE_ROW_1_Left_34/VPB            |(no matching net)                          
+  sky130_fd_sc_hd__decap_3/VPB = 1         |                                           
+                                           |                                           
+Net: _342_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+                                           |                                           
+Net: _377_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _375_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: input1/VPB                            |(no matching net)                          
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 1 |                                           
+                                           |                                           
+Net: _359_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _408_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _400_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _352_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__inv_2/VPB = 1           |                                           
+                                           |                                           
+Net: _304_/VPB                             |(no matching net)                          
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VPB = 2 |                                           
+  sky130_fd_sc_hd__a31o_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__xor2_2/VPB = 1          |                                           
+  sky130_fd_sc_hd__and2_2/VPB = 1          |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: spm                             |Circuit 2: spm                             
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |Instance: PHY_EDGE_ROW_0_Left_33           
+  VGND = 763                               |  VGND = 719                               
+  VNB = 763                                |  VNB = 719                                
+  VPB = 671                                |  VPB = 719                                
+  VPWR = 671                               |  VPWR = 719                               
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 2                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 4                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 2                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 3                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 2                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+                                           |                                           
+Instance: sky130_fd_sc_hd__decap_3:PHY_EDG |(no matching instance)                     
+  VGND = 763                               |                                           
+  VNB = 763                                |                                           
+  VPB = 1                                  |                                           
+  VPWR = 671                               |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: spm                             |Circuit 2: spm                             
+-------------------------------------------|-------------------------------------------
+Cell pin lists are equivalent.
+Device classes spm and spm are equivalent.
+
+Final result: Netlists do not match.
+Port matching may fail to disambiguate symmetries.

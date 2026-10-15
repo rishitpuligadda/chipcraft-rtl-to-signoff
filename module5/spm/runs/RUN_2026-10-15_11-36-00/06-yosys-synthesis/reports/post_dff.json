@@ -1,0 +1,57 @@
+{
+   "creator": "Yosys 0.65 (git sha1 b85cad634, g++ 13.3.0-6ubuntu2~24.04.1 -fPIC -O3)",
+   "invocation": "stat -json -liberty /foss/designs/course/module5/spm/runs/RUN_2026-10-15_11-36-00/tmp/a51891647d674acaabaa7470ccfd592e.lib ",
+   "modules": {
+      "\\spm": {
+         "num_wires":         321,
+         "num_wire_bits":     352,
+         "num_pub_wires":     99,
+         "num_pub_wire_bits": 130,
+         "num_ports":         5,
+         "num_port_bits":     36,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         317,
+         "num_submodules":       0,
+         "area":              1681.612800,
+         "sequential_area":    1681.612800,
+         "num_cells_by_type": {
+            "$_AND_": 32,
+            "$_NAND_": 31,
+            "$_NOR_": 31,
+            "$_NOT_": 64,
+            "$_OR_": 1,
+            "$_XNOR_": 31,
+            "$_XOR_": 63,
+            "sky130_fd_sc_hd__dfrtp_2": 64
+         }
+      }
+   },
+      "design": {
+         "num_wires":         321,
+         "num_wire_bits":     352,
+         "num_pub_wires":     99,
+         "num_pub_wire_bits": 130,
+         "num_ports":         5,
+         "num_port_bits":     36,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         317,
+         "num_submodules":       0,
+         "area":              1681.612800,
+         "sequential_area":    1681.612800,
+         "num_cells_by_type": {
+            "$_AND_": 32,
+            "$_NAND_": 31,
+            "$_NOR_": 31,
+            "$_NOT_": 64,
+            "$_OR_": 1,
+            "$_XNOR_": 31,
+            "$_XOR_": 63,
+            "sky130_fd_sc_hd__dfrtp_2": 64
+         }
+      }
+}
+
